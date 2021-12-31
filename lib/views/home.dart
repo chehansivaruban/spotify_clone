@@ -19,7 +19,7 @@ class _HomeViewState extends State<HomeView> {
           Container(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height * .4,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Color(0xFf1C7A74),
             ),
           ),
@@ -349,10 +349,10 @@ class RowAlbumCard extends StatelessWidget {
             height: 50,
             fit: BoxFit.cover,
           ),
-          SizedBox(
+          const SizedBox(
             width: 8,
           ),
-          Text("data"),
+          const Text("data"),
         ],
       ),
     );

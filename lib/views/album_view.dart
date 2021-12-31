@@ -42,7 +42,7 @@ class _AlbumViewState extends State<AlbumView> {
         } else {
           showTopBar = false;
         }
-        print(scrollController.offset);
+
         setState(() {});
       });
     super.initState();
@@ -176,13 +176,13 @@ class _AlbumViewState extends State<AlbumView> {
                   ),
                   Container(
                     color: Colors.black,
-                    padding: EdgeInsets.all(16),
+                    padding: const EdgeInsets.all(16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
+                        const Text(
                             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s "),
-                        SizedBox(
+                        const SizedBox(
                           height: 16,
                         ),
                         Text(
@@ -196,14 +196,14 @@ class _AlbumViewState extends State<AlbumView> {
                             children: [
                               AlbumCard(
                                 size: cardSize,
-                                image: AssetImage(
+                                image: const AssetImage(
                                   "assets/album1.jpg",
                                 ),
                                 lable: 'Top 50',
                               ),
                               AlbumCard(
                                 size: cardSize,
-                                image: AssetImage(
+                                image: const AssetImage(
                                   "assets/album2.jpg",
                                 ),
                                 lable: 'Top 50',
@@ -218,14 +218,14 @@ class _AlbumViewState extends State<AlbumView> {
                             children: [
                               AlbumCard(
                                 size: cardSize,
-                                image: AssetImage(
+                                image: const AssetImage(
                                   "assets/album3.jpg",
                                 ),
                                 lable: 'Top 50',
                               ),
                               AlbumCard(
                                 size: cardSize,
-                                image: AssetImage(
+                                image: const AssetImage(
                                   "assets/album4.jpg",
                                 ),
                                 lable: 'Top 50',
@@ -240,14 +240,14 @@ class _AlbumViewState extends State<AlbumView> {
                             children: [
                               AlbumCard(
                                 size: cardSize,
-                                image: AssetImage(
+                                image: const AssetImage(
                                   "assets/album5.jpg",
                                 ),
                                 lable: 'Top 50',
                               ),
                               AlbumCard(
                                 size: cardSize,
-                                image: AssetImage(
+                                image: const AssetImage(
                                   "assets/album9.jpg",
                                 ),
                                 lable: 'Top 50',

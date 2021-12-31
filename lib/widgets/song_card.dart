@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_clone/views/album_view.dart';
 
 class SongCard extends StatelessWidget {
   final AssetImage image;
@@ -24,7 +23,7 @@ class SongCard extends StatelessWidget {
           //   }),
           // );
         },
-        child: Container(
+        child: SizedBox(
           width: 140,
           child: Column(
             children: [
