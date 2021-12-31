@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotify_clone/views/album_view.dart';
 
 class SongCard extends StatelessWidget {
   final AssetImage image;
@@ -15,11 +16,12 @@ class SongCard extends StatelessWidget {
         onTap: () {
           // Navigator.push(
           //   context,
-          //   MaterialPageRoute(
-          //     builder: (context) => AlbumView(
+          //   MaterialPageRoute(builder: (context) {
+          //     return
+          //     AlbumView(
           //       image: image,
-          //     ),
-          //   ),
+          //     );
+          //   }),
           // );
         },
         child: Container(
